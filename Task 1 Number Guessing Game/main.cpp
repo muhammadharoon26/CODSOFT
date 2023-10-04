@@ -15,11 +15,11 @@ int main()
         cin>>gnumber;
         if(gnumber>randomNum)
         {
-            cout<<"High\n";
+            cout<<"Too High\n";
         }
         else if(gnumber<randomNum)
         {
-            cout<<"Low\n";
+            cout<<"Too Low\n";
         }
         else
         {
