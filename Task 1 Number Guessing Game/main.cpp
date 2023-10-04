@@ -1,29 +1,3 @@
-// #include <iostream>
-// #include <cstdlib>
-// using namespace std;
-// int main() 
-// {
-//     int randomNum = rand();
-//     int gnumber;
-//     cout<<"Guess The Number !";
-//     cin>>gnumber;
-//     while(gnumber!=randomNum)
-//     {
-//         if(gnumber>randomNum)
-//         {
-//             cout<<"High\n";
-//         }
-//         else if(gnumber<randomNum)
-//         {
-//             cout<<"Low\n";
-//         }
-//     }
-//     if(gnumber==randomNum)
-//     {
-//         cout<<"BINGO !\nYou Guessed It Right !";
-//     }
-//     return 0;
-// }
 #include <iostream>
 #include <cstdlib>
 #include <ctime> // Include this header for srand()
@@ -41,11 +15,11 @@ int main()
         cin>>gnumber;
         if(gnumber>randomNum)
         {
-            cout<<"High\n";
+            cout<<"Too High\n";
         }
         else if(gnumber<randomNum)
         {
-            cout<<"Low\n";
+            cout<<"Too Low\n";
         }
         else
         {
